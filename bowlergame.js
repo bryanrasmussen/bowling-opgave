@@ -1,4 +1,4 @@
-//'use strict'
+'use strict'
 var fetch = require('node-fetch');
 var request = require("request")
 
@@ -22,7 +22,7 @@ bowlergame.setSums = function setSums (currentSum) {
 }
 bowlergame.isStrike = function isStrike (frame) { 
 	if(!Boolean(frame)){return false;}
-	return (frame[0] === 10); //frame[0] is 10 and frame[1] is other than 0 should not happen
+	return (frame[0] === 10); //frame[0] is 10 and frame[1] is other than 0 should not happen - only seen if frame 11 which is not sent in. 
 							}
 
 bowlergame.isSpare = function isSpare (frame) {
