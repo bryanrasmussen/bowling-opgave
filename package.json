@@ -1,0 +1,16 @@
+{
+  "name": "bowlingopgave",
+  "version": "0.0.1",
+  "description": "solution to https://github.com/skat/bowling-opgave",
+  "main": "index.js",
+  "author": {
+    "name": "Bryan Rasmussen",
+    "email": "rasmussen.bryan@gmail.com",
+    "url": "bryanrasmussen.name"
+  },
+  "dependencies": {
+	"node-fetch": "latest",
+	"request": "latest",
+	"expect": "latest"
+  }
+}
